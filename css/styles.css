@@ -1,80 +1,135 @@
-/* This stylesheet is where to add styles for your Shakespeare Play */
-/*We usually add something general for the body*/
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
+}
 body {
-  /*your style rules go in here */
+  font-family:georgia, sans-serif;
+  margin: 20px;
 }
 
-/*Here follows the class names that you will have in your html*/
-/*You may have more if you added styles in InDesign*/
-/*You need to add the style attributes between the curly brackets*/
 
-/* the following may not be used  */
+section.dramatis section.play{
+  width: 70%;
+  margin: 12px auto;
+  min-width: 700px;
 
-section.cover {
-text-align:center;
-width:70%;
-margin: 20px auto;
-}
-
-img.playimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
-}
-
-img.shakespeareimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
-}
-
-/* If you ahe created any new stlyes in InDesign and used export tags then you need to add them here */
-
-body {
-}
-section.dramatis {
 }
 section.play {
+  width:70%;
+  margin: 12px auto;
+  min-width: 700px;
 }
 div.sceneImage {
 }
+
+
 h1.act {
-
+text-align: center;
+font-size: 4em;
+background-color: gray;
+color:white;
+line-height: 2;
+padding: 12px 0;
 }
-p.character {
 
+
+p.character {
+font-size:1.4em;
 }
 p.charactername {
+margin: 0 12px 0 40px;
 
 }
 h1.dramatishead {
-
+text-align: center;
 }
 h2.firstscene {
-
+text-align: center;
+font-size: 2em;
 }
 h2.location {
-
+text-align: center;
 }
 p.play_location {
-
+text-align: center;
 }
 p.prose {
-
+margin: 0 12px 0 60px;
 }
 h2.scene {
-
+text-align: center;
+font-size: 2em;
 }
 p.song {
-
+text-align: center;
 }
 h2.stagedirection {
-
+font-size:1.4em
+font-style
 }
 p.verseline {
-
+margin: 0 12px 0 60px;
 }
 span.character_role {
+  color:rgb(149, 24, 7)
 }
 span.stage_directions_inline {
+
+}
+
+ a {
+  text-decoration: none;
+}
+
+ul {
+  background: darkred;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+li {
+    color: #fff;
+  background: darkred;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+    background: rgb(45, 6, 1);
+    cursor: pointer;
+}
+
+ul li ul {
+    background: orange;
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+    clear: both;
+  width: 100%;
 }
