@@ -40,6 +40,7 @@ margin: 0 12px 0 40px;
 }
 h1.dramatishead {
 text-align: center;
+font-size: 2em;
 }
 h2.firstscene {
 text-align: center;
@@ -47,9 +48,12 @@ font-size: 2em;
 }
 h2.location {
 text-align: center;
+font-weight: 500;
 }
 p.play_location {
 text-align: center;
+font-weight: 500;
+font-size: 2em;
 }
 p.prose {
 margin: 0 12px 0 60px;
@@ -62,8 +66,9 @@ p.song {
 text-align: center;
 }
 h2.stagedirection {
-font-size:1.4em
-font-style
+font-size:1.2em;
+font-style:italic;
+font-weight: 500;
 }
 p.verseline {
 margin: 0 12px 0 60px;
@@ -72,7 +77,9 @@ span.character_role {
   color:rgb(149, 24, 7)
 }
 span.stage_directions_inline {
-
+  font-size:0.5em;
+  font-style: italic;
+font-weight: 500;
 }
 
  a {
@@ -99,6 +106,7 @@ li {
     position: relative;
     text-decoration: none;
   transition-duration: 0.5s;
+
 }
 
 li a {
@@ -117,7 +125,7 @@ ul li ul {
   min-width: 5rem;
     position: absolute;
   transition: all 0.5s ease;
-  margin-top: 1rem;
+  margin-top: 3rem;
     left: 0;
   display: none;
 }
