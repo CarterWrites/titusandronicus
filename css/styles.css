@@ -150,7 +150,7 @@ ul {
   padding-left: 0;
   float:right;
   overflow: hidden;
-  background:black;
+  background:darkred;
   width:0;
   position:relative;
   top: 2rem;
@@ -183,7 +183,6 @@ ul li ul {
   padding:0;
   left: 0;
   font-size: .7em;
-
 /* display: none; */
   float:none;
   margin:0;
@@ -214,6 +213,7 @@ ul {
   position:static;
   top:inherit;
 }
+
 li {
   display:inline-block;
   height:1.2rem;
@@ -260,7 +260,7 @@ p.prose {
 }
 }
 
-li a {
+/* li a {
   color: #fff;
 }
 
@@ -293,5 +293,4 @@ ul li ul li {
   width: 100%;
 
 
-}
-}
+} */
