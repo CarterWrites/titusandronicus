@@ -8,8 +8,9 @@ body {
 
 section.dramatis section.play{
   width: 70%;
-  margin: 12px auto;
+  margin: 20px auto;
   min-width: 700px;
+
 
 }
 section.play {
@@ -144,7 +145,7 @@ a.menu:hover {
   background: darkred;
   font-family: georgia, sans-serif;
   font-size:.8em;
-  height:1.5rem;
+  height:2.4rem;
 }
 
 a {
