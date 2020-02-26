@@ -166,6 +166,10 @@ ul {
   top: 2rem;
 }
 
+.has-header-media.header-navigation {
+margin-top:92px;
+}
+
 #navigation:target {
   width: 30%;
 }
