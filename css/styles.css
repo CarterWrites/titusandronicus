@@ -1,16 +1,16 @@
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 }
+
 body {
   font-family:georgia, sans-serif;
   margin: 20px;
 }
 
 
-section.dramatis section.play{
+section.dramatis {
   width: 70%;
   margin: 20px auto;
   min-width: 700px;
-
 }
 
 section.play {
@@ -31,7 +31,6 @@ line-height: 2;
 padding: 12px 0;
 }
 
-HEAD
 /* This extra style rule here makes sure that the linked location is not hidden inder the fixed header */
 h1 a, h2 a {
   margin-top: -2.4rem;
@@ -52,12 +51,13 @@ h1.dramatishead {
 text-align: center;
 font-size: 2em;
 margin-top: 5rem;
-
+}
 
 h2.firstscene {
 text-align: center;
 font-size: 2em;
 }
+
 h2.location {
 text-align: center;
 font-weight: 500;
@@ -280,7 +280,7 @@ p.prose {
 }
 }
 
-li a {
+/* li a {
   color: #fff;
 }
 
@@ -310,7 +310,4 @@ ul li ul:hover {
 
 ul li ul li {
     clear: both;
-  width: 100%;
-
-
-}
+  width: 100%; */
