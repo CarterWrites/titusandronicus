@@ -31,6 +31,7 @@ line-height: 2;
 padding: 12px 0;
 }
 
+<<<<<<< HEAD
 /* This extra style rule here makes sure that the linked location is not hidden inder the fixed header */
 h1 a, h2 a {
   margin-top: -2.4rem;
@@ -40,6 +41,8 @@ h1 a, h2 a {
 }
 
 
+=======
+>>>>>>> b6525a421af3e3332b275abded5b2626feb17622
 p.character {
 font-size:1.4em;
 }
@@ -51,7 +54,11 @@ margin: 0 12px 0 40px;
 h1.dramatishead {
 text-align: center;
 font-size: 2em;
+<<<<<<< HEAD
 margin-top: 5rem;
+=======
+margin-top:30px;
+>>>>>>> b6525a421af3e3332b275abded5b2626feb17622
 }
 
 h2.firstscene {
@@ -133,7 +140,11 @@ a.menu {
   position:fixed;
   top:0;
   right:0;
+<<<<<<< HEAD
   color:white;
+=======
+  color:black;
+>>>>>>> b6525a421af3e3332b275abded5b2626feb17622
   padding: 1rem;
   font-family: georgia, sans-serif;
   font-size:1em;
@@ -280,7 +291,7 @@ p.prose {
 }
 }
 
-/* li a {
+li a {
   color: #fff;
 }
 
@@ -313,4 +324,4 @@ ul li ul li {
   width: 100%;
 
 
-} */
+}
