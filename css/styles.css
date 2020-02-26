@@ -42,7 +42,7 @@ margin: 0 12px 0 40px;
 h1.dramatishead {
 text-align: center;
 font-size: 2em;
-padding-top: 40px;
+margin-top:30px;
 }
 
 h2.firstscene {
@@ -168,7 +168,6 @@ ul {
 
 #navigation:target {
   width: 30%;
-  margin-bottom: 20px;
 }
 
 li {
