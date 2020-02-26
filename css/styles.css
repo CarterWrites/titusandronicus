@@ -114,17 +114,16 @@ a.menu {
   position:fixed;
   top:0;
   right:0;
-  color:white;
-  padding: .6rem;
-  color:white;
-  font-family: verdana, sans-serif;
-  font-size:.8em;
+  color:black;
+  padding: 1rem;
+  font-family: georgia, sans-serif;
+  font-size:1em;
   z-index: 20;
   margin:0;
 }
 
 a.menu:hover {
-  color:red;
+  color:darkred;
   cursor:pointer;
 }
 
@@ -134,7 +133,7 @@ a.menu:hover {
   left:0;
   width:100%;
   background: darkred;
-  font-family: verdana, sans-serif;
+  font-family: georgia, sans-serif;
   font-size:.8em;
   height:2.4rem;
 }
