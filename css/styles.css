@@ -31,7 +31,7 @@ line-height: 2;
 padding: 12px 0;
 }
 
-<<<<<<< HEAD
+HEAD
 /* This extra style rule here makes sure that the linked location is not hidden inder the fixed header */
 h1 a, h2 a {
   margin-top: -2.4rem;
@@ -40,9 +40,6 @@ h1 a, h2 a {
   background: white;
 }
 
-
-=======
->>>>>>> b6525a421af3e3332b275abded5b2626feb17622
 p.character {
 font-size:1.4em;
 }
@@ -140,11 +137,7 @@ a.menu {
   position:fixed;
   top:0;
   right:0;
-<<<<<<< HEAD
   color:white;
-=======
-  color:black;
->>>>>>> b6525a421af3e3332b275abded5b2626feb17622
   padding: 1rem;
   font-family: georgia, sans-serif;
   font-size:1em;
