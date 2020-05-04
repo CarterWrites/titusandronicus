@@ -4,6 +4,7 @@ body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 body {
   font-family:georgia, sans-serif;
   text-align: center;
+  font-size: 1em;
 }
 
 
@@ -41,7 +42,7 @@ h1 a, h2 a {
 }
 
 p.character {
-font-size:1.8em;
+font-size:1.5em;
 text-align: center;
 padding-bottom: 1rem;
 }
@@ -86,14 +87,14 @@ text-align: center;
 }
 
 h2.stagedirection {
-font-size:1.4em;
+font-size:1em;
 font-style:italic;
 font-weight: 500;
 }
 
 p.verseline {
 margin: 0 12px 0 60px;
-font-size: 1.4em;
+font-size: 1em;
 }
 
 span.character_role {
@@ -101,7 +102,7 @@ span.character_role {
 }
 
 span.stage_directions_inline {
-  font-size:1.4em;
+  font-size:1em;
   font-style: italic;
 font-weight: 500;
 }
