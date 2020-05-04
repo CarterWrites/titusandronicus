@@ -42,7 +42,8 @@ h1 a, h2 a {
 
 p.character {
 font-size:1.8em;
-text-align: left;
+text-align: centre;
+padding-bottom: 1rem;
 }
 
 p.charactername {
