@@ -45,7 +45,7 @@ font-size:1.8em;
 }
 
 p.charactername {
-margin: 0 12px 0 40px;
+margin: 0 12px 0 60px;
 }
 
 h1.dramatishead {
@@ -274,7 +274,7 @@ li:hover a {
 }
 
 p.prose, p.verseline {
-  margin: 0 12px 0 40px;
+  margin: 0 12px 0 60px;
 }
 p.prose {
   margin-bottom: 12px;
