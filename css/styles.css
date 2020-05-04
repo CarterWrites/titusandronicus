@@ -45,7 +45,7 @@ font-size:1.4em;
 }
 
 p.charactername {
-margin: 0 12px 0 40px;
+margin: 0 0 0 40px;
 }
 
 h1.dramatishead {
@@ -84,7 +84,7 @@ text-align: center;
 }
 
 h2.stagedirection {
-font-size:1.4em;
+font-size:1em;
 font-style:italic;
 font-weight: 500;
 }
@@ -98,7 +98,7 @@ span.character_role {
 }
 
 span.stage_directions_inline {
-  font-size:1.4em;
+  font-size:1em;
   font-style: italic;
 font-weight: 500;
 }
