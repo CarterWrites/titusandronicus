@@ -7,12 +7,6 @@ body {
   font-size: 1em;
 }
 
-img{
-display:block;
-width:30%;
-margin:10px auto;
-}
-
 section.dramatis {
   width: 70%;
   margin: 20px auto;
@@ -288,6 +282,13 @@ p.prose, p.verseline {
 p.prose {
   margin-bottom: 12px;
 }
+
+img{
+display:block;
+width:30%;
+margin:10px auto;
+}
+
 }
 
 /* li a {
